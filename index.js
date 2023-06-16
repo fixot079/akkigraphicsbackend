@@ -1,4 +1,4 @@
-const frontendaddress = `https://www.akkigraphics.netlify.app`
+const frontendaddress = `https://akkigraphics.netlify.app`
 const fs = require(`fs`);
 const path = require(`path`);
 const mongoose = require('mongoose')
@@ -413,7 +413,7 @@ app.post(`/mrbeasttypethumbnails/upload`, mrbeasttypethumbnails.any(`file`), (re
 });
 
 app.post(`/clients/upload`, clients.any(`file`), (req, res) => {
-  
+  res.redirect(`${frontendaddress}/$admin`); 
 });
 
 app.post(`/organisations/upload`, organisations.any(`file`), (req, res) => {
