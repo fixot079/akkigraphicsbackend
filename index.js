@@ -1,4 +1,4 @@
-const frontendaddress = `http://192.168.43.254:8080`
+const frontendaddress = `https://www.akkigraphics.netlify.app`
 const fs = require(`fs`);
 const path = require(`path`);
 const mongoose = require('mongoose')
