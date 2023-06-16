@@ -413,7 +413,7 @@ app.post(`/mrbeasttypethumbnails/upload`, mrbeasttypethumbnails.any(`file`), (re
 });
 
 app.post(`/clients/upload`, clients.any(`file`), (req, res) => {
-  res.redirect(`${frontendaddress}/$admin`);
+  
 });
 
 app.post(`/organisations/upload`, organisations.any(`file`), (req, res) => {
